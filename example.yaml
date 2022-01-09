@@ -1,0 +1,85 @@
+    12006:
+        activities:
+            copying:
+                materials:
+                -   quantity: 12
+                    typeID: 11466
+                -   quantity: 140
+                    typeID: 3812
+                skills:
+                -   level: 1
+                    typeID: 11450
+                -   level: 1
+                    typeID: 11452
+                time: 192000
+            manufacturing:
+                materials:
+                -   quantity: 450
+                    typeID: 11553
+                -   quantity: 150
+                    typeID: 11399
+                -   quantity: 450
+                    typeID: 11556
+                -   quantity: 398
+                    typeID: 11535
+                -   quantity: 1
+                    typeID: 626
+                -   quantity: 150
+                    typeID: 3828
+                -   quantity: 1350
+                    typeID: 11541
+                -   quantity: 18
+                    typeID: 11478
+                -   quantity: 75
+                    typeID: 11531
+                -   quantity: 5625
+                    typeID: 11545
+                -   quantity: 38
+                    typeID: 11547
+                products:
+                -   quantity: 1
+                    typeID: 12005
+                skills:
+                -   level: 5
+                    typeID: 3380
+                -   level: 1
+                    typeID: 3397
+                -   level: 1
+                    typeID: 11450
+                -   level: 1
+                    typeID: 11452
+                time: 240000
+            research_material:
+                materials:
+                -   quantity: 6
+                    typeID: 11466
+                -   quantity: 20
+                    typeID: 9836
+                -   quantity: 36
+                    typeID: 3814
+                skills:
+                -   level: 5
+                    typeID: 3409
+                -   level: 1
+                    typeID: 11450
+                -   level: 1
+                    typeID: 11452
+                time: 84000
+            research_time:
+                materials:
+                -   quantity: 6
+                    typeID: 11466
+                -   quantity: 20
+                    typeID: 9836
+                -   quantity: 36
+                    typeID: 3814
+                skills:
+                -   level: 5
+                    typeID: 3403
+                -   level: 1
+                    typeID: 11450
+                -   level: 1
+                    typeID: 11452
+                time: 84000
+        blueprintTypeID: 12006
+        maxProductionLimit: 1
