@@ -267,10 +267,25 @@ func main() {
 	}
 
 	var itemName string
+	var itemCount int
+
 	fmt.Println("item name: ")
 	fmt.Scanf("%s\n", &itemName)
 
+	fmt.Println("item count: ")
+	fmt.Scanf("%d\n", &itemCount)
+
 	materials := bpArray[searchId(itemName, &IDArray, &bpArray)].Activities.Manufacturing.Materials
+	for i, v := range materials {
+		println(v.TypeID, itemCount)
+		println("before: ", v.Quantity)
+		count := v.Quantity * itemCount
+		materials[i].Quantity = count
+		println("after: ", materials[i].Quantity)
+	}
+
+	print(materials, &IDArray)
+
 	var checker bool
 
 	for {
